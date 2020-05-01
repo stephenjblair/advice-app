@@ -5,12 +5,13 @@
     box-sizing: border-box;
     font-family: 'Spartan', sans-serif;
     font-size: 10px;
+    color: #fff;
     
 }
 
 .app {
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('./images/city.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('./images/city6.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -20,15 +21,18 @@
 }
 
 .card {
-    background-color: whitesmoke;
+    background-color: #1a1a1a;
+    opacity: 0.9;
     width: 60%;
     height: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border: 0.5px solid #fff;
     border-radius: 25px;
     padding: 2%;
+ 
     
 }
 .button {
@@ -49,7 +53,7 @@
   }
     
   .button span {
-    color: #164ca7;
+    color: #000;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 0.7px;
